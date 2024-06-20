@@ -1,0 +1,6 @@
+LoginHome.html --> home page of farmer site
+farmer.php  --> home page of farmer
+fprofile.php --> user profile page
+display_data.php --> show add form data in product.php
+product.php --> display data
+process_add --> send add form data in databse

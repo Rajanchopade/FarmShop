@@ -1,0 +1,119 @@
+
+.profile-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    color: white;
+    background-color: black;
+    max-width: 400px;
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* .profile-card {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 10px;
+} */
+
+.info-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.info-container p {
+    margin-left: 10px;
+}
+
+
+
+.profile-card .Ebutton{
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 20px;
+    color: aqua;
+    background-color: black;
+    border: solid white 2px;
+    transition: color 0.5s ease;
+    font-weight: bold;
+}
+.profile-card .Ebutton:hover{
+    color:white;
+    border: solid aqua 2px;
+}
+
+.profile-background1 {
+    background-color: #90246e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.profile-background2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Additional styles for the edit form */
+/* Additional styles for the edit form */
+.edit-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: none;
+    z-index: 1; /* Ensure the edit form is above other elements */
+}
+
+.edit-form input,
+.edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.edit-form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .profile-card, .edit-form {
+        max-width: 90%;
+    }
+}
+
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Text Color</title>
+    <style>
+        .normal {
+            color: black;
+            cursor: pointer;
+        }
+
+        .red {
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p id="changeColor" class="normal" onclick="changeTextColor()">Click to change color</p>
+
+    <script>
+        function changeTextColor() {
+            var element = document.getElementById("changeColor");
+            if (element.classList.contains("normal")) {
+                element.classList.remove("normal");
+                element.classList.add("red");
+            } else {
+                element.classList.remove("red");
+                element.classList.add("normal");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: #253b33;
+      }
+
+      .navbar {
+        padding: 2px;
+    height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo img {
+        width: 40px; /* Set the width of your logo */
+        margin-right: 10px;
+      }
+
+      .logo span {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .nav-links {
+        list-style: none;
+        display: flex;
+      }
+
+      .nav-links li {
+        font-weight: bold;
+        margin-right: 40px;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+
+      .nav-links a:hover {
+        color: #b71c86; /* Change the color on hover */
+      }
+
+      .main {
+        margin: 0;
+        padding: 0;
+        background-image: url("home.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main2 {
+        text-align: center;
+        margin-top: 140px;
+      }
+
+      .buttons button:first-child {
+        margin-right: 120px;
+      }
+      .buttons button {
+        color: #ebec28;
+        background: transparent;
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 10px 20px;
+        font-size: x-large;
+        border: 2px solid #34d286;
+        transition: color 0.3s, border-color 0.3s;
+      }
+
+      .buttons button:hover {
+        color: aqua;
+        border-color: aqua;
+      }
+      h1{
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <span>FarmerShop</span>
+        </div>
+        <!-- <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul> -->
+      </nav>
+    </header>
+    <div class="main">
+      
+      <div class="mian2">
+        <h1 style="color: #6ef7ed;">
+          FarmerShop
+        </h1>
+      <div class="buttons">
+        <a href="farmer/index2.php"><button>Farmer</button></a>
+        <a href="buyer/index.php"><button>Buyer</button></a>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
